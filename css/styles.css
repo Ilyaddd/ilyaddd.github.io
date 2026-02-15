@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+#lightbox {
+    display: none;
+}
+
+#lightbox.is-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
